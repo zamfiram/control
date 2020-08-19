@@ -36,10 +36,39 @@
 
 .custom-select{
   font-size: 20px;
-  margin-top: 20%;
   color: #353535;
   background-color: #D9D9D9;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: bold;
-  padding: 20px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border: 3px solid #3C6E71;
+  padding: 10px;
+}
+
+.container {
+  background-image: url('https://wallpaperaccess.com/full/649202.jpg');
+}
+
+/* .accueil,
+.leaderboard,
+.nouvelle-question,
+.custom-select */
+.container li
+{
+  display: inline-block;
+  margin: 35px;
+}
+
+.container ul{
+  text-decoration: none;
+  color: #353535;
+  font-size: 18px;
+}
+
+.accueil p{
+  display: inline-block;
+  margin: 20px;
 }
